@@ -4,7 +4,7 @@ This repository presents R code to identify data repositories mentioned in a set
 ## Setting up
 This code uses the following packages: ``tabulizer``, ``tm``, ``stringr``, and ``plyr``. Make sure you have them installed for the code to work. 
 
-This code makes a number of assumptions about the structure of the PDFMERGE output, so the out needs to be formatted accordingly for the code to work. It expects that the DMS plan is the only document exported in the output, it expects that the output is a zip file of PDFs with one DMS plan per PDF, and that the individual PDFs follow the naming convention ``[applID].pdf``. These are all available options in the PDFMERGE report, so make sure they're selected before you run the report. 
+This code makes a number of assumptions about the structure of the PDFMERGE output, so that output needs to be formatted accordingly for the code to work. It expects that the DMS plan is the only document exported in the output, it expects that the output is a zip file of PDFs with one DMS plan per PDF, and that the individual PDFs follow the naming convention ``[applID].pdf``. These are all available options in the PDFMERGE report, so make sure they're selected before you run the report. 
 
 ## The code
 First, unzip the PDFMERGE output zip file to a folder called "DMS 2023" in your current working directory. You can change the filepaths in either argument if you want to put the plans somewhere else. 
