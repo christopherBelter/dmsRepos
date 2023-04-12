@@ -15,7 +15,7 @@ Then create a list of the pdf file names in the "DMS 2023" folder so we can use 
 ```r
 fnames <- list.files("DMS 2023", full.names = TRUE)
 ```
-Then read in the text of each pdf and remove any extra whitespace from the pdf formatting. Note that you'll get a lot of INFO messages about embedded fonts and other fomatting after running ``the extract_text()`` function. Don't worry about them; they're normal.
+Then read in the text of each pdf and remove any extra whitespace from the pdf formatting. Note that you'll get a lot of INFO messages about embedded fonts and other fomatting after running the ``extract_text()`` function. Don't worry about them; they're normal.
 ```r
 plans <- lapply(fnames, tabulizer::extract_text)
 plans <- lapply(plans, tm::stripWhitespace)
