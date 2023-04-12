@@ -1,0 +1,36 @@
+database,regex
+ADNI,[Aa][Dd][Nn][Ii]|[Aa]lzheimer [Dd]isease [Nn]euroimaging [Ii]nitiative|[Aa]lzheimer's [Dd]isease [Nn]euroimaging [Ii]nitiative
+BioLINCC,[Bb]io[Ll][Ii][Nn][Cc][Cc]
+BioProject,[Bb]io[Pp]roject|PRJNA[0-9]{5}
+ClinVar,[Cc]lin[Vv]ar
+DASH,DASH|[Dd]ata and [Ss]pecimen [Hh]ub
+Dataverse,[Dd]ata[Vv]erse
+DSDR,[Dd]ata [Ss]haring [Ff]or [Dd]emographic [Rr]esearch|DSDR
+DS-Connect,DS[ -]Connect|dsconnect
+Databrary,[Dd]ata[Bb]rary
+dbGaP,[Dd][Bb][Gg][Aa][Pp]|[Dd]atabase of [Gg]enotypes and [Pp]henotypes
+dbSNP,[Dd]atabase of [Ss]hort [Gg]enetic [Vv]ariation|[Dd][Bb][Ss][Nn][Pp]
+dbVar,[Dd]atabase of [Gg]enomic [Ss]tructural [Vv]ariation|[Dd][Bb][Vv][Aa][Rr]
+Dryad,[Dd]ryad|DRYAD
+EMDB,[Ee]lectron [Mm]icroscopy [Dd]ata[ -][Bb]ank|EMDB
+Figshare,[Ff]igshare
+FlyBase,[Ff]ly[Bb]ase
+GEO,[Gg]ene [Ee]xpression [Oo]mnibus|GEO|GSE[0-9]{5}
+GenBank,[Gg]en[Bb]ank
+Kids First,[Kk]ids( )*[Ff]irst|[Gg]abriella [Mm]iller
+ICPSR,ICPSR|[Ii]nter[- ]*university [Cc]onsortium for [Pp]olitical and [Ss]ocial [Rr]esearch
+INCLUDE,INCLUDE|includedcc
+Mendeley,[Mm]endeley
+NBSTRN,NBSTRN|[Nn]ewborn [Ss]creening [Tt]ranslational|nbs[0-9]{4}
+NDA,\\bNDA\\b|NIMH [Dd]ata [Aa]rchive
+OSF,OSF|[Oo]pen [Ss]cience [Ff]ramework|osf\\.io
+Open Neuro,[Oo]pen [Nn]euro\\b|openneuro
+PubChem,[Pp]ub[Cc]hem
+ProteomeXchange,[Pp]roteome[Xx]change|PXD[0-9]{5}
+PDB,[Pp]rotein [Dd]atabase|rcsb\\.org|[Pp]rotein [Dd]atabank|[Pp]rotein [Dd]ata [Bb]ank
+SRA,[Ss]equence [Rr]ead [Aa]rchive|[Ss]hort [Rr]ead [Aa]rchive|SRA
+Vivli,[Vv]ivli
+Xenbase,[Xx]enbase
+WormBase,[Ww]orm[Bb]ase
+Zenodo,[Zz]enodo
+Other,[Dd]ownload|[Rr]epositor(y|ies)(?! [Ww]here [Ss]cientific [Dd]ata and [Mm]etadata)|[Dd]ata[ -]*base|[Dd]ata portal|[Aa]ccession|[Pp]roject [Nn]umber|(is|are|will be|will be made) ([Oo]penly|[Ff]reely|[Pp]ublicly) [Aa]vailable
